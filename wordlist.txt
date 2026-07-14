@@ -1,0 +1,8 @@
+admin
+login
+backup
+secret
+db
+config
+
+private_backup.tar.gz

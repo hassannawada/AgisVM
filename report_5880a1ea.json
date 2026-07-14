@@ -1,0 +1,14 @@
+{
+    "workspace_id": "5880a1ea",
+    "target": "http://localhost:5000",
+    "integrity_signature": "73d808fbc2de9ab9fd03c8336a8d8dbfff19582bc063447c55ac2068889a11ac",
+    "summary_metrics": {
+        "ports_found": 2,
+        "paths_found": 0
+    },
+    "remediations": {
+        "SQL_Injection": "Implement Prepared Statements and enforce Parameterized Queries across routing layers.",
+        "Cross_Site_Scripting": "Deploy Context-Aware Output Encoding and sanitize input fields natively.",
+        "Path_Traversal": "Utilize Chroot Jails and resolve absolute file path limits strictly."
+    }
+}

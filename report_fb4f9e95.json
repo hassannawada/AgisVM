@@ -1,0 +1,14 @@
+{
+    "workspace_id": "fb4f9e95",
+    "target": "http://vulnweb.com",
+    "integrity_signature": "05553eab21e5fe63361ddc58ce87b8918409cf3c96f382bab57ff6f0c54267a3",
+    "summary_metrics": {
+        "ports_found": 2,
+        "paths_found": 2
+    },
+    "remediations": {
+        "SQL_Injection": "Implement Prepared Statements and enforce Parameterized Queries across routing layers.",
+        "Cross_Site_Scripting": "Deploy Context-Aware Output Encoding and sanitize input fields natively.",
+        "Path_Traversal": "Utilize Chroot Jails and resolve absolute file path limits strictly."
+    }
+}

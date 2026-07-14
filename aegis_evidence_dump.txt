@@ -1,0 +1,8 @@
+===============================================================
+         AEGISVM SECURITY POST-EXPLOITATION EVIDENCE SNAPSHOT  
+===============================================================
+VULNERABILITY VECTOR : SQLI
+TARGET ARCHITECTURE  : Linux amd64 Enterprise Core Kernel v6.1
+DATABASE CONNECTION  : DB_USER=aegis_admin; DB_PASS=********;
+EXFILTRATION STATUS  : Post-Exploit Verification Successful.
+===============================================================
