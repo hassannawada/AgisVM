@@ -1,0 +1,11 @@
+[package]
+name = "aegis_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+# Telling Cargo to output a C-compatible system dynamic library (.dll on Windows, .so on Linux)
+crate-type = ["cdylib"]
+
+[dependencies]
+# Left empty for raw optimized performance bounds
